@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Tabla;
+use App\Models\Producto;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,6 +15,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        Tabla::factory(25)->create();
+        Producto::factory(25)->create();
     }
 }
